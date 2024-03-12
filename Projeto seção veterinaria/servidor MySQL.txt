@@ -1,0 +1,1 @@
+Servisor = https://admin.mysql.uhserver.com/?lang=pt_BR
