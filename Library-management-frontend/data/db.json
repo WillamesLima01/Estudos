@@ -1,34 +1,19 @@
 {
-    "suppliers": [
+    "books": [
       {
         "id": 1,
-        "name": " tio João",
-        "cnpj": "85.317.193/0001-61",
-        "email": "sac@gmail.com"
-      },
-      {
-        "id": 2,
-        "name": "João da loja",
-        "cnpj": "2354235234523459879",
-        "email": "lojajoão@gmail.com"
-      },
-      {
-        "id": 3,
-        "name": "willames lima",
-        "cnpj": "23452345",
-        "email": "illaap@hotmail.com"
-      },
-      {
-        "id": 4,
-        "name": "azul",
-        "cnpj": "36345346435",
-        "email": "illaap@hotmail.com"
-      },
-      {
-        "name": "Arraildo Pereira de Lima",
-        "cnpj": "32325234532450",
-        "email": "arraildojr@gmail.com",
-        "id": 5
+        "title": " tio João",
+        "author": "85.317.193/0001-61",
+        "publisher": "sac@gmail.com",
+        "isbn": "João da loja",
+        "publicationDate": "2354235234523459879",
+        "genre": "lojajoão@gmail.com",
+        "language": "João da loja",
+        "numberOfPages": "2354235234523459879",
+        "description": "lojajoão@gmail.com",
+        "availabilityStatus": "2354235234523459879",
+        "edition": "lojajoão@gmail.com",
+        "ration": "ótimo"
       }
     ],
     "products": [

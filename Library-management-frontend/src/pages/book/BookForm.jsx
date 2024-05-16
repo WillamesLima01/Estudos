@@ -93,27 +93,7 @@ const BookForm = () => {
                 <label htmlFor="rating">Editora</label>
                 <input type="text" className="form-control" id="edition" name="edition" value={books.edition} onChange={handleChange} required />
             </div>
-            <div className="form-group">
-                <label htmlFor="supplierId">Fornecedor</label>
-                <select
-                    className="form-control"
-                    id="supplierId"
-                    name="supplierId"
-                    value={product.supplierId}
-                    onChange={handleChange}
-                    required
-                    >
-
-                    <option value="">Selecione um fornecedor</option>
-                    {
-                        suppliers.map(supplier => (
-                            <option key={supplier.id} value={supplier.id}>
-                                {supplier.name}
-                            </option>
-                        ))
-                    }
-                    </select>
-            </div>
+            
             <button type="submit" className="btn btn-success">{id ? 'Atualizar' : 'Adicionar'}</button>
         </form>
 
